@@ -1,0 +1,64 @@
+/* 
+Student Name: Ermenes Membreno
+Current Date: 09/06/2022
+File Name: styles.css
+*/
+
+/* CSS Reset */
+header nav body footer {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+/* Style rules for paragraph */
+p {
+	font-family: Arial, Times, serif;
+}
+
+/* Style rules for header */
+header {
+	background-color: #00FF55;
+}
+header a {
+	text-decoration: none;
+	color: #000;
+}
+
+/* Style rules for nav */
+nav {
+	background-color: #009933;
+}
+nav a {
+	text-decoration: none;
+	color: #000;
+}
+/* Style rules for main */
+main {
+	float: right;
+	text-align: left;
+	width: 100%;
+	background-color: #fff;
+	padding-bottom: 2em;
+}
+
+main img {
+	max-width: 100%;
+	display: block;
+	float: left;
+	margin: 0em 1em;
+}
+
+/* Style rules for footer */
+footer {
+	background-color: #009933;
+	text-align: center;
+}
+
+#book {
+	background-color: #fff;
+	color: #000
+}
+
+.white-hex {
+	background-color: #fff;
+}
